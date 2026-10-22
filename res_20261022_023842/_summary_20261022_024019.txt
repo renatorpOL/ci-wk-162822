@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-22T02:40:19.069964
+Total: 485
+Vulnerable: 1
+Failed: 0
+States: {"dns_or_connect_error": 156, "http_error": 257, "unknown_timeout": 71, "vulnerable": 1}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - dfm_bfmb_edu_bd_20261022_023846.json

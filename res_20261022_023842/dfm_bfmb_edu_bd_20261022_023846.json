@@ -1,0 +1,65 @@
+{
+  "target": "dfm.bfmb.edu.bd",
+  "scan_time": "2026-10-22T02:38:46.277620",
+  "data": {
+    "platform": "linux",
+    "user_id": "bfmbedu1",
+    "kernel_release": "4.18.0-553.84.1.lve.el8.x86_64",
+    "hostname": "s1.sitechai.com",
+    "env_type": "METAL",
+    "files": [
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/.env.local",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/package.json",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/next.config.mjs",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/.user.ini",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/jsconfig.json",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd/package-lock.json"
+    ],
+    "host_cores_total": "48",
+    "usable_cores": "48",
+    "cpu_model": "AMD EPYC 7401P 24-Core Processor",
+    "has_avx2": "1",
+    "ram_total_mb": "128275",
+    "usable_ram_mb": "128275",
+    "ips": [
+      "116.202.222.251"
+    ],
+    "writable_paths": [
+      "/tmp",
+      "/dev/shm",
+      "/var/tmp",
+      "/home/bfmbedu1/dfm.bfmb.edu.bd"
+    ],
+    "cwd": "/home/bfmbedu1/dfm.bfmb.edu.bd",
+    "node_version": "v20.19.4",
+    "env_vars": {
+      "CL_VIRTUAL_ENV": "/home/bfmbedu1/nodevenv/dfm.bfmb.edu.bd/20",
+      "LSNODE_STARTUP_FILE": "server.js",
+      "CL_APP_ROOT": "dfm.bfmb.edu.bd",
+      "NODE_PATH": "/home/bfmbedu1/nodevenv/dfm.bfmb.edu.bd/20/lib/node_modules:/opt/alt/alt-nodejs20/root/lib/node_modules:/opt/alt/alt-nodejs20/root/lib64/node_modules:",
+      "LSNODE_SOCKET": "/usr/local/lsws/extapp-sock/APVH_dfm.bfmb.edu.bd:443:_.sock",
+      "LSAPI_PPID_NO_CHECK": "1",
+      "LSAPI_PGRP_MAX_IDLE": "300",
+      "NODE_ENV": "production",
+      "LSNODE_ROOT": "/home/bfmbedu1/dfm.bfmb.edu.bd/",
+      "BKP_PATH": "/usr/local/bin:/bin:/usr/bin",
+      "PWD": "/home/bfmbedu1/nodevenv/dfm.bfmb.edu.bd/20/bin",
+      "HOME": "/home/bfmbedu1",
+      "CL_NODEHOME": "/opt/alt/alt-nodejs20/root",
+      "SHLVL": "0",
+      "PATH": "/home/bfmbedu1/nodevenv/dfm.bfmb.edu.bd/20/bin:/opt/alt/alt-nodejs20/root/usr/bin:/home/bfmbedu1/nodevenv/dfm.bfmb.edu.bd/20/lib/bin/:/usr/local/bin:/bin:/usr/bin",
+      "PS1": "[dfm.bfmb.edu.bd (20)] ",
+      "BKP_NODE_PATH": "",
+      "BKP_PS1": "",
+      "__NEXT_PROCESSED_ENV": "true",
+      "NEXT_PUBLIC_SERVER_URL": "https://dfmseverr.bfmb.edu.bd",
+      "NEXT_DEPLOYMENT_ID": ""
+    },
+    "env_vars_count": "21",
+    "is_hvt": "false",
+    "procs": "1039402:lsnode:/home/bfmbedu1/dfm.bfmb.edu.bd/|1375149:lsnode:/home/bfmbedu1/bhaktipurhighschool.bfmb.edu.bd/|1417621:/bin/sh -c nohup sh /tmp/.e7150bdc7.sh >/dev/null 2>&1|1417622:sh /tmp/.e7150bdc7.sh|1442111:curl -sS -m 3 -H Metadata-Flavor: Google http://169.254.169.254/computeMetadata/|2137468:lsnode:/home/bfmbedu1/bhagotipur.uttar.para.highschool.bfmb.edu.bd/|421116:lsnode:/home/bfmbedu1/bkfm.bfmb.edu.bd/|461144:lsnode:/home/bfmbedu1/sbhs.bfmb.edu.bd/|533641:lsnode:/home/bfmbedu1/bhush.bfmb.edu.bd/",
+    "listening_ports": "3306,587,6379,11211,2091,110,2095,143,783,111,2096,80,80,2000,465,27217,53,21,25,953,443,443,2077,44222,4190,2078,52223,2079,52224,2080,993,2082,11234,2083,995,52227,579,52228,52229,2086,52230,2087,52231,5959,7080,52232",
+    "llm_checks": []
+  },
+  "bypass_used": 0
+}
