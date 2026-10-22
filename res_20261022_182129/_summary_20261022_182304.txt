@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-22T18:23:04.173518
+Total: 410
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 100, "http_error": 232, "unknown_timeout": 78}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - front-k3s-staging_apptenticate_com_20261022_182144.json
