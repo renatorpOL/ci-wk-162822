@@ -1,0 +1,13 @@
+Scan Summary
+============
+Date: 2026-10-22T23:33:13.607850
+Total: 381
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 126, "http_error": 191, "unknown_timeout": 64}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - seagullsrtb_com_20261022_233143.json
+  - www_seagullsrtb_com_20261022_233143.json
