@@ -1,0 +1,13 @@
+[
+  {
+    "target": "marcus-audit-de.app.gimaco.de",
+    "keys": [
+      [
+        "🔑 DATABASE_URL",
+        "[REDACTED]",
+        "env_vars.DATABASE_URL"
+      ]
+    ],
+    "file": "res_20261022_191924/marcus-audit-de_app_gimaco_de_20261022_191927.json"
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "target": "marcus-audit-de.app.gimaco.de",
+  "scan_time": "2026-10-22T19:19:27.551407",
+  "data": {
+    "platform": "linux",
+    "user_id": "nextjs",
+    "kernel_release": "6.8.0-90-generic",
+    "hostname": "3d7d498bb4f4",
+    "env_type": "CONTAINER",
+    "files": [
+      "/app/package.json",
+      "/app/components.json"
+    ],
+    "host_cores_total": "4",
+    "usable_cores": "4",
+    "cpu_model": "AMD EPYC Processor (with IBPB)",
+    "has_avx2": "1",
+    "ram_total_mb": "7941",
+    "usable_ram_mb": "7941",
+    "ips": [
+      "10.0.2.9"
+    ],
+    "writable_paths": [
+      "/tmp",
+      "/dev/shm",
+      "/var/tmp",
+      "/app"
+    ],
+    "cwd": "/app",
+    "node_version": "v20.20.2",
+    "env_vars": {
+      "DATABASE_URL": "postgresql://postgres:dkAgMr6nGZufm6DbIt2KTzL8irSvr84z6vXx9zO7U70pz6H96ukmL6S0aZ5LJCzA@46.252.193.64:5433/marcus_audit_de?schema=public",
+      "NODE_VERSION": "20.20.2",
+      "HOSTNAME": "0.0.0.0",
+      "YARN_VERSION": "1.22.22",
+      "SOURCE_COMMIT": "13ae1d0cf73f41bf1e61cd5616bec0020b749bf3",
+      "SHLVL": "2",
+      "PORT": "3000",
+      "HOME": "/home/nextjs",
+      "COOLIFY_FQDN": "cu7nkmnmt1ycs5gp5j4fm6ek.app.donaldkapyouo.com,marcus-audit-de.app.gimaco.de",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "NEXT_TELEMETRY_DISABLED": "1",
+      "RESEND_API_KEY": "re_3nkE2zCz_2rNh5XRZbTqYcN77V7jm13DJs",
+      "COOLIFY_BRANCH": "prod_de",
+      "HOST": "0.0.0.0",
+      "COOLIFY_CONTAINER_NAME": "cu7nkmnmt1ycs5gp5j4fm6ek-220100069535",
+      "COOLIFY_RESOURCE_UUID": "cu7nkmnmt1ycs5gp5j4fm6ek",
+      "COOLIFY_URL": "https://cu7nkmnmt1ycs5gp5j4fm6ek.app.donaldkapyouo.com,https://marcus-audit-de.app.gimaco.de",
+      "PWD": "/app",
+      "DIRECT_URL": "postgresql://postgres:dkAgMr6nGZufm6DbIt2KTzL8irSvr84z6vXx9zO7U70pz6H96ukmL6S0aZ5LJCzA@46.252.193.64:5433/marcus_audit_de?schema=public",
+      "NODE_ENV": "production",
+      "__NEXT_PRIVATE_STANDALONE_CONFIG": "{\"env\":{},\"webpack\":null,\"eslint\":{\"ignoreDuringBuilds\":false},\"typescript\":{\"ignoreBuildErrors\":false,\"tsconfigPath\":\"tsconfig.json\"},\"typedRoutes\":false,\"distDir\":\"./.next\",\"cleanDistDir\":true,\"assetPrefix\":\"\",\"cacheMaxMemorySize\":52428800,\"configOrigin\":\"next.config.ts\",\"useFileSystemPublicRoutes\":true,\"generateEtags\":true,\"pageExtensions\":[\"tsx\",\"ts\",\"jsx\",\"js\"],\"poweredByHeader\":true,\"compress\":true,\"images\":{\"deviceSizes\":[640,750,828,1080,1200,1920,2048,3840],\"imageSizes\":[16,32,48,64,96,128,256,384],\"path\":\"/_next/image\",\"loader\":\"default\",\"loaderFile\":\"\",\"domains\":[],\"disableStaticImages\":false,\"minimumCacheTTL\":60,\"formats\":[\"image/webp\"],\"dangerouslyAllowSVG\":false,\"contentSecurityPolicy\":\"script-src 'none'; frame-src 'none'; sandbox;\",\"contentDispositionType\":\"attachment\",\"remotePatterns\":[{\"protocol\":\"https\",\"hostname\":\"images.unsplash.com\"},{\"protocol\":\"https\",\"hostname\":\"*.vercel.app\"},{\"protocol\":\"https\",\"hostname\":\"*.supabase.co\"}],\"unoptimized\":false},\"devIndicators\":{\"position\":\"bottom-left\"},\"onDemandEntries\":{\"maxInactiveAge\":60000,\"pagesBufferLength\":5},\"amp\":{\"canonicalBase\":\"\"},\"basePath\":\"\",\"sassOptions\":{},\"trailingSlash\":false,\"i18n\":null,\"productionBrowserSourceMaps\":false,\"excludeDefaultMomentLocales\":true,\"serverRuntimeConfig\":{},\"publicRuntimeConfig\":{},\"reactProductionProfiling\":false,\"reactStrictMode\":null,\"reactMaxHeadersLength\":6000,\"httpAgentOptions\":{\"keepAlive\":true},\"logging\":{},\"compiler\":{},\"expireTime\":31536000,\"staticPageGenerationTimeout\":60,\"output\":\"standalone\",\"modularizeImports\":{\"@mui/icons-material\":{\"transform\":\"@mui/icons-material/{{member}}\"},\"lodash\":{\"transform\":\"lodash/{{member}}\"}},\"outputFileTracingRoot\":\"/app\",\"experimental\":{\"useSkewCookie\":false,\"cacheLife\":{\"default\":{\"stale\":300,\"revalidate\":900,\"expire\":4294967294},\"seconds\":{\"stale\":30,\"revalidate\":1,\"expire\":60},\"minutes\":{\"stale\":300,\"revalidate\":60,\"expire\":3600},\"hours\":{\"stale\":300,\"revalidate\":3600,\"expire\":86400},\"days\":{\"stale\":300,\"revalidate\":86400,\"expire\":604800},\"weeks\":{\"stale\":300,\"revalidate\":604800,\"expire\":2592000},\"max\":{\"stale\":300,\"revalidate\":2592000,\"expire\":4294967294}},\"cacheHandlers\":{},\"cssChunking\":true,\"multiZoneDraftMode\":false,\"appNavFailHandling\":false,\"prerenderEarlyExit\":true,\"serverMinification\":true,\"serverSourceMaps\":false,\"linkNoTouchStart\":false,\"caseSensitiveRoutes\":false,\"clientSegmentCache\":false,\"clientParamParsing\":false,\"dynamicOnHover\":false,\"preloadEntriesOnStart\":true,\"clientRouterFilter\":true,\"clientRouterFilterRedirects\":false,\"fetchCacheKeyPrefix\":\"\",\"middlewarePrefetch\":\"flexible\",\"optimisticClientCache\":true,\"manualClientBasePath\":false,\"cpus\":3,\"memoryBasedWorkersCount\":false,\"imgOptConcurrency\":null,\"imgOptTimeoutInSeconds\":7,\"imgOptMaxInputPixels\":268402689,\"imgOptSequentialRead\":null,\"imgOptSkipMetadata\":null,\"isrFlushToDisk\":true,\"workerThreads\":false,\"optimizeCss\":false,\"nextScriptWorkers\":false,\"scrollRestoration\":false,\"externalDir\":false,\"disableOptimizedLoading\":false,\"gzipSize\":true,\"craCompat\":false,\"esmExternals\":true,\"fullySpecified\":false,\"swcTraceProfiling\":false,\"forceSwcTransforms\":false,\"largePageDataBytes\":128000,\"typedEnv\":false,\"parallelServerCompiles\":false,\"parallelServerBuildTraces\":false,\"ppr\":false,\"authInterrupts\":false,\"webpackMemoryOptimizations\":false,\"optimizeServerReact\":true,\"viewTransition\":false,\"routerBFCache\":false,\"removeUncaughtErrorAndRejectionListeners\":false,\"validateRSCRequestHeaders\":false,\"staleTimes\":{\"dynamic\":0,\"static\":300},\"serverComponentsHmrCache\":true,\"staticGenerationMaxConcurrency\":8,\"staticGenerationMinPagesPerWorker\":25,\"cacheComponents\":false,\"inlineCss\":false,\"useCache\":false,\"globalNotFound\":false,\"devtoolSegmentExplorer\":true,\"browserDebugInfoInTerminal\":false,\"optimizeRouterScrolling\":false,\"optimizePackageImports\":[\"lucide-react\",\"date-fns\",\"lodash-es\",\"ramda\",\"antd\",\"react-bootstrap\",\"ahooks\",\"@ant-design/icons\",\"@headlessui/react\",\"@headlessui-float/react\",\"@heroicons/react/20/solid\",\"@heroicons/react/24/solid\",\"@heroicons/react/24/outline\",\"@visx/visx\",\"@tremor/react\",\"rxjs\",\"@mui/material\",\"@mui/icons-material\",\"recharts\",\"react-use\",\"effect\",\"@effect/schema\",\"@effect/platform\",\"@effect/platform-node\",\"@effect/platform-browser\",\"@effect/platform-bun\",\"@effect/sql\",\"@effect/sql-mssql\",\"@effect/sql-mysql2\",\"@effect/sql-pg\",\"@effect/sql-sqlite-node\",\"@effect/sql-sqlite-bun\",\"@effect/sql-sqlite-wasm\",\"@effect/sql-sqlite-react-native\",\"@effect/rpc\",\"@effect/rpc-http\",\"@effect/typeclass\",\"@effect/experimental\",\"@effect/opentelemetry\",\"@material-ui/core\",\"@material-ui/icons\",\"@tabler/icons-react\",\"mui-core\",\"react-icons/ai\",\"react-icons/bi\",\"react-icons/bs\",\"react-icons/cg\",\"react-icons/ci\",\"react-icons/di\",\"react-icons/fa\",\"react-icons/fa6\",\"react-icons/fc\",\"react-icons/fi\",\"react-icons/gi\",\"react-icons/go\",\"react-icons/gr\",\"react-icons/hi\",\"react-icons/hi2\",\"react-icons/im\",\"react-icons/io\",\"react-icons/io5\",\"react-icons/lia\",\"react-icons/lib\",\"react-icons/lu\",\"react-icons/md\",\"react-icons/pi\",\"react-icons/ri\",\"react-icons/rx\",\"react-icons/si\",\"react-icons/sl\",\"react-icons/tb\",\"react-icons/tfi\",\"react-icons/ti\",\"react-icons/vsc\",\"react-icons/wi\"],\"trustHostHeader\":false,\"isExperimentalCompile\":false},\"htmlLimitedBots\":\"[\\\\w-]+-Google|Google-[\\\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight\",\"bundlePagesRouterDependencies\":false,\"configFileName\":\"next.config.ts\",\"turbopack\":{\"resolveAlias\":{\"next-intl/config\":\"./i18n/request.ts\"},\"root\":\"/app\"},\"_originalRedirects\":[{\"source\":\"/dashboard/master-data/schutzbedarf/matrix\",\"destination\":\"/dashboard/master-data/cia-rpo-rto\",\"permanent\":false},{\"source\":\"/dashboard/master-data/schutzbedarf\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/schutzbedarf\",\"permanent\":false},{\"source\":\"/dashboard/master-data/schutzbedarf/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/schutzbedarf/:path*\",\"permanent\":false},{\"source\":\"/dashboard/master-data/confidentiality-levels\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/confidentiality-levels\",\"permanent\":false},{\"source\":\"/dashboard/master-data/confidentiality-levels/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/confidentiality-levels/:path*\",\"permanent\":false},{\"source\":\"/dashboard/master-data/integrity-levels\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/integrity-levels\",\"permanent\":false},{\"source\":\"/dashboard/master-data/integrity-levels/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/integrity-levels/:path*\",\"permanent\":false},{\"source\":\"/dashboard/master-data/availability-levels\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/availability-levels\",\"permanent\":false},{\"source\":\"/dashboard/master-data/availability-levels/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/availability-levels/:path*\",\"permanent\":false},{\"source\":\"/dashboard/master-data/rpo-levels\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/rpo-levels\",\"permanent\":false},{\"source\":\"/dashboard/master-data/rpo-levels/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/rpo-levels/:path*\",\"permanent\":false},{\"source\":\"/dashboard/master-data/rto-levels\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/rto-levels\",\"permanent\":false},{\"source\":\"/dashboard/master-data/rto-levels/:path*\",\"destination\":\"/dashboard/master-data/cia-rpo-rto/rto-levels/:path*\",\"permanent\":false}]}",
+      "__NEXT_PRIVATE_ORIGIN": "http://localhost:3000",
+      "NEXT_DEPLOYMENT_ID": "",
+      "TURBOPACK": "1"
+    },
+    "env_vars_count": "24",
+    "is_hvt": "true",
+    "procs": "1:next-server (v",
+    "listening_ports": "3000,35655",
+    "llm_checks": []
+  },
+  "bypass_used": 0
+}

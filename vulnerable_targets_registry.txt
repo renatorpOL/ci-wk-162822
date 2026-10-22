@@ -18,3 +18,4 @@ edgec.io
 hello-api.hitrail.eu
 staging.bodyfyme.com
 front-k3s-staging.apptenticate.com
+marcus-audit-de.app.gimaco.de
