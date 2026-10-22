@@ -1,0 +1,64 @@
+name: scan
+on:
+  workflow_dispatch:
+    inputs:
+      chunk:
+        description: host list file
+        default: hosts.txt
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: deps
+        run: |
+          pip install -q 'aiohttp>=3.10' jsmin requests dnspython aiodns
+          python3 -c "import aiodns, aiohttp, jsmin, dns; print('deps ok')"
+      - name: split
+        run: |
+          ulimit -n 65535
+          mkdir -p out
+          wc -l "${{ github.event.inputs.chunk }}"
+          split -n l/2 -d "${{ github.event.inputs.chunk }}" part_
+          wc -l part_*
+      - name: prefilter
+        run: |
+          ulimit -n 65535
+          export PREFILTER_CONCURRENCY=400 PREFILTER_RETRY_CONCURRENCY=200
+          for i in 00 01; do
+            echo "=== part_$i"
+            python3 bin/prefilter_nextjs.py < part_$i > cands_$i.txt 2> pf_$i.err || echo "PREFILTER_EXIT_$?"
+            tail -2 pf_$i.err || true
+            echo "candidates: $(wc -l < cands_$i.txt)"
+          done
+          echo "total candidates: $(( $(wc -l < cands_00.txt) + $(wc -l < cands_01.txt) ))"
+          if [ ! -s cands_00.txt ] && [ ! -s cands_01.txt ]; then
+            echo "::error::prefilter produced zero candidates"; cat pf_00.err pf_01.err; exit 1
+          fi
+      - name: scan
+        run: |
+          ulimit -n 65535
+          for i in 00 01; do
+            ( test -s cands_$i.txt && python3 bin/batch_output.py -l cands_$i.txt --js bin/fast_recon.js -c 250 -t 8 -o res > scan_$i.log 2>&1; echo "scan_$i rc=$?" ) &
+          done
+          wait
+          echo "results dirs: $(ls -d res_* 2>/dev/null | wc -l)"; find . -maxdepth 2 -name "*.json" | wc -l
+      - name: push results
+        if: always()
+        run: |
+          git config user.email w@w
+          git config user.name w
+          rm -f part_0* || true
+          git add -A
+          git commit -m "results $(date -u +%s)" || true
+          git push || true
+      - name: verify
+        if: always()
+        run: |
+          n=$(find . -maxdepth 2 -path "./res_*" -name "*.json" | wc -l)
+          echo "out files: $n"
+          if [ "$n" -eq 0 ]; then echo "::error::no results produced"; exit 1; fi
