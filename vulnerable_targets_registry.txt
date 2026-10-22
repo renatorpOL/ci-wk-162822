@@ -14,3 +14,4 @@ test.tesslaw.co
 kargoo.fr
 algopartner.rize.exchange
 www.mxlab.kr
+edgec.io

