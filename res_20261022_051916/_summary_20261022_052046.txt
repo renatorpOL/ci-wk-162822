@@ -1,0 +1,23 @@
+Scan Summary
+============
+Date: 2026-10-22T05:20:46.066353
+Total: 384
+Vulnerable: 2
+Failed: 0
+States: {"dns_or_connect_error": 41, "http_error": 278, "unknown_timeout": 63, "vulnerable": 2}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 2 targets
+
+Vulnerable targets:
+  - 4takademi_com_20261022_051921.json
+  - www_4takademi_com_20261022_051922.json
+
+
+CRITICAL CRYPTO KEYS FOUND:
+===========================
+
+Target: 4takademi.com
+  🔑 DATABASE_URL: [REDACTED]
+
+Target: www.4takademi.com
+  🔑 DATABASE_URL: [REDACTED]
