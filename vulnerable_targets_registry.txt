@@ -16,3 +16,4 @@ algopartner.rize.exchange
 www.mxlab.kr
 edgec.io
 hello-api.hitrail.eu
+staging.bodyfyme.com
