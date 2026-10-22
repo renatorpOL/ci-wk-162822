@@ -1,0 +1,18 @@
+[
+  {
+    "target": "kargoo.fr",
+    "keys": [
+      [
+        "🔑 DATABASE_URL",
+        "[REDACTED]",
+        "env_vars.DATABASE_URL"
+      ],
+      [
+        "🔑 REDIS_URL",
+        "[REDACTED]",
+        "env_vars.REDIS_URL"
+      ]
+    ],
+    "file": "res_20261022_110143/kargoo_fr_20261022_110146.json"
+  }
+]
