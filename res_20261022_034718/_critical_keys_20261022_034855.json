@@ -1,0 +1,13 @@
+[
+  {
+    "target": "go.trysumma.app",
+    "keys": [
+      [
+        "🔑 DATABASE_URL",
+        "[REDACTED]",
+        "env_vars.DATABASE_URL"
+      ]
+    ],
+    "file": "res_20261022_034718/go_trysumma_app_20261022_034723.json"
+  }
+]

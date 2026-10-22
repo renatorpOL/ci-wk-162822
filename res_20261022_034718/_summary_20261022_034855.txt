@@ -1,0 +1,20 @@
+Scan Summary
+============
+Date: 2026-10-22T03:48:55.136794
+Total: 390
+Vulnerable: 1
+Failed: 0
+States: {"dns_or_connect_error": 124, "http_error": 179, "unknown_timeout": 86, "vulnerable": 1}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 1 targets
+
+Vulnerable targets:
+  - app_kashmirdesk_com_20261022_034722.json
+  - go_trysumma_app_20261022_034723.json
+
+
+CRITICAL CRYPTO KEYS FOUND:
+===========================
+
+Target: go.trysumma.app
+  🔑 DATABASE_URL: [REDACTED]

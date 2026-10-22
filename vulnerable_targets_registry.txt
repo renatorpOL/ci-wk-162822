@@ -1,2 +1,4 @@
 dfm.bfmb.edu.bd
 app.correaflowproton.cloud
+app.kashmirdesk.com
+go.trysumma.app
