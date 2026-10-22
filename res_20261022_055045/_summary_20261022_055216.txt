@@ -1,0 +1,14 @@
+Scan Summary
+============
+Date: 2026-10-22T05:52:16.965181
+Total: 350
+Vulnerable: 2
+Failed: 0
+States: {"dns_or_connect_error": 25, "http_error": 239, "unknown_timeout": 84, "vulnerable": 2}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - help_inaiy_com_20261022_055049.json
+  - support_inaiy_com_20261022_055049.json
+  - www_vanginvestment_com_20261022_055053.json
