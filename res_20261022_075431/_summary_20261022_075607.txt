@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-22T07:56:07.639495
+Total: 419
+Vulnerable: 1
+Failed: 0
+States: {"dns_or_connect_error": 132, "http_error": 238, "unknown_timeout": 48, "vulnerable": 1}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - test_tesslaw_co_20261022_075445.json
