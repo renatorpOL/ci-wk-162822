@@ -47,7 +47,7 @@ jobs:
           ulimit -n 65535
           export SCAN_REGISTRY_DB="$PWD/scanned.db"
           for i in 00 01; do
-            ( test -s cands_$i.txt && python3 bin/batch_output.py -l cands_$i.txt --js bin/fast_recon.js -c 250 -t 8 -o res > scan_$i.log 2>&1; echo "scan_$i rc=$?" ) &
+            ( export SCAN_REGISTRY_DB="$PWD/scan_$i.db"; test -s cands_$i.txt && python3 bin/batch_output.py -l cands_$i.txt --js bin/fast_recon.js -c 250 -t 8 -o res > scan_$i.log 2>&1; echo "scan_$i rc=$?" ) &
           done
           wait
           echo "results dirs: $(ls -d res_* 2>/dev/null | wc -l)"; find . -maxdepth 2 -name "*.json" | wc -l
