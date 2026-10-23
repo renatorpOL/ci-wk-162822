@@ -1,0 +1,58 @@
+{
+  "target": "novatraxinternational.com",
+  "scan_time": "2026-10-23T04:46:06.082181",
+  "data": {
+    "platform": "linux",
+    "user_id": "node",
+    "kernel_release": "7.0.0-1013-gcp",
+    "hostname": "da505fe1177a",
+    "env_type": "CONTAINER",
+    "files": [
+      "/app/package.json"
+    ],
+    "host_cores_total": "4",
+    "usable_cores": "0.X",
+    "cpu_model": "unknown",
+    "has_avx2": "0",
+    "ram_total_mb": "15947",
+    "usable_ram_mb": "512",
+    "ips": [
+      "172.18.0.5"
+    ],
+    "writable_paths": [
+      "/tmp",
+      "/dev/shm",
+      "/var/tmp"
+    ],
+    "cwd": "/app",
+    "node_version": "v22.23.2",
+    "env_vars": {
+      "NODE_VERSION": "22.23.2",
+      "HOSTNAME": "0.0.0.0",
+      "YARN_VERSION": "1.22.22",
+      "SMTP_PORT": "587",
+      "SHLVL": "1",
+      "PORT": "3000",
+      "HOME": "/home/node",
+      "PATH": "/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+      "CONTACT_TO": "info@novatraxinternational.com",
+      "NEXT_TELEMETRY_DISABLED": "1",
+      "PWD": "/app",
+      "NODE_ENV": "production",
+      "__NEXT_PRIVATE_STANDALONE_CONFIG": "{\"env\":{},\"webpack\":null,\"eslint\":{\"ignoreDuringBuilds\":false},\"typescript\":{\"ignoreBuildErrors\":false,\"tsconfigPath\":\"tsconfig.json\"},\"distDir\":\"./.next\",\"cleanDistDir\":true,\"assetPrefix\":\"\",\"cacheMaxMemorySize\":52428800,\"configOrigin\":\"next.config.mjs\",\"useFileSystemPublicRoutes\":true,\"generateEtags\":true,\"pageExtensions\":[\"tsx\",\"ts\",\"jsx\",\"js\"],\"poweredByHeader\":true,\"compress\":true,\"images\":{\"deviceSizes\":[640,750,828,1080,1200,1920,2048,3840],\"imageSizes\":[16,32,48,64,96,128,256,384],\"path\":\"/_next/image/\",\"loader\":\"default\",\"loaderFile\":\"\",\"domains\":[],\"disableStaticImages\":false,\"minimumCacheTTL\":60,\"formats\":[\"image/webp\"],\"dangerouslyAllowSVG\":false,\"contentSecurityPolicy\":\"script-src 'none'; frame-src 'none'; sandbox;\",\"contentDispositionType\":\"attachment\",\"remotePatterns\":[],\"unoptimized\":true},\"devIndicators\":{\"appIsrStatus\":true,\"buildActivity\":true,\"buildActivityPosition\":\"bottom-right\"},\"onDemandEntries\":{\"maxInactiveAge\":60000,\"pagesBufferLength\":5},\"amp\":{\"canonicalBase\":\"\"},\"basePath\":\"\",\"sassOptions\":{},\"trailingSlash\":true,\"i18n\":null,\"productionBrowserSourceMaps\":false,\"excludeDefaultMomentLocales\":true,\"serverRuntimeConfig\":{},\"publicRuntimeConfig\":{},\"reactProductionProfiling\":false,\"reactStrictMode\":null,\"reactMaxHeadersLength\":6000,\"httpAgentOptions\":{\"keepAlive\":true},\"logging\":{},\"expireTime\":31536000,\"staticPageGenerationTimeout\":60,\"output\":\"standalone\",\"modularizeImports\":{\"@mui/icons-material\":{\"transform\":\"@mui/icons-material/{{member}}\"},\"lodash\":{\"transform\":\"lodash/{{member}}\"}},\"outputFileTracingRoot\":\"/app\",\"experimental\":{\"cacheLife\":{\"default\":{\"stale\":300,\"revalidate\":900,\"expire\":4294967294},\"seconds\":{\"stale\":0,\"revalidate\":1,\"expire\":60},\"minutes\":{\"stale\":300,\"revalidate\":60,\"expire\":3600},\"hours\":{\"stale\":300,\"revalidate\":3600,\"expire\":86400},\"days\":{\"stale\":300,\"revalidate\":86400,\"expire\":604800},\"weeks\":{\"stale\":300,\"revalidate\":604800,\"expire\":2592000},\"max\":{\"stale\":300,\"revalidate\":2592000,\"expire\":4294967294}},\"cacheHandlers\":{},\"cssChunking\":true,\"multiZoneDraftMode\":false,\"appNavFailHandling\":false,\"prerenderEarlyExit\":true,\"serverMinification\":true,\"serverSourceMaps\":false,\"linkNoTouchStart\":false,\"caseSensitiveRoutes\":false,\"clientSegmentCache\":false,\"preloadEntriesOnStart\":true,\"clientRouterFilter\":true,\"clientRouterFilterRedirects\":false,\"fetchCacheKeyPrefix\":\"\",\"middlewarePrefetch\":\"flexible\",\"optimisticClientCache\":true,\"manualClientBasePath\":false,\"cpus\":1,\"memoryBasedWorkersCount\":false,\"imgOptConcurrency\":null,\"imgOptTimeoutInSeconds\":7,\"imgOptMaxInputPixels\":268402689,\"imgOptSequentialRead\":null,\"isrFlushToDisk\":true,\"workerThreads\":false,\"optimizeCss\":false,\"nextScriptWorkers\":false,\"scrollRestoration\":false,\"externalDir\":false,\"disableOptimizedLoading\":false,\"gzipSize\":true,\"craCompat\":false,\"esmExternals\":true,\"fullySpecified\":false,\"swcTraceProfiling\":false,\"forceSwcTransforms\":false,\"largePageDataBytes\":128000,\"turbo\":{\"root\":\"/app\"},\"typedRoutes\":false,\"typedEnv\":false,\"parallelServerCompiles\":false,\"parallelServerBuildTraces\":false,\"ppr\":false,\"authInterrupts\":false,\"reactOwnerStack\":false,\"webpackMemoryOptimizations\":false,\"optimizeServerReact\":true,\"useEarlyImport\":false,\"staleTimes\":{\"dynamic\":0,\"static\":300},\"serverComponentsHmrCache\":true,\"staticGenerationMaxConcurrency\":8,\"staticGenerationMinPagesPerWorker\":25,\"dynamicIO\":false,\"inlineCss\":false,\"optimizePackageImports\":[\"lucide-react\",\"date-fns\",\"lodash-es\",\"ramda\",\"antd\",\"react-bootstrap\",\"ahooks\",\"@ant-design/icons\",\"@headlessui/react\",\"@headlessui-float/react\",\"@heroicons/react/20/solid\",\"@heroicons/react/24/solid\",\"@heroicons/react/24/outline\",\"@visx/visx\",\"@tremor/react\",\"rxjs\",\"@mui/material\",\"@mui/icons-material\",\"recharts\",\"react-use\",\"effect\",\"@effect/schema\",\"@effect/platform\",\"@effect/platform-node\",\"@effect/platform-browser\",\"@effect/platform-bun\",\"@effect/sql\",\"@effect/sql-mssql\",\"@effect/sql-mysql2\",\"@effect/sql-pg\",\"@effect/sql-squlite-node\",\"@effect/sql-squlite-bun\",\"@effect/sql-squlite-wasm\",\"@effect/sql-squlite-react-native\",\"@effect/rpc\",\"@effect/rpc-http\",\"@effect/typeclass\",\"@effect/experimental\",\"@effect/opentelemetry\",\"@material-ui/core\",\"@material-ui/icons\",\"@tabler/icons-react\",\"mui-core\",\"react-icons/ai\",\"react-icons/bi\",\"react-icons/bs\",\"react-icons/cg\",\"react-icons/ci\",\"react-icons/di\",\"react-icons/fa\",\"react-icons/fa6\",\"react-icons/fc\",\"react-icons/fi\",\"react-icons/gi\",\"react-icons/go\",\"react-icons/gr\",\"react-icons/hi\",\"react-icons/hi2\",\"react-icons/im\",\"react-icons/io\",\"react-icons/io5\",\"react-icons/lia\",\"react-icons/lib\",\"react-icons/lu\",\"react-icons/md\",\"react-icons/pi\",\"react-icons/ri\",\"react-icons/rx\",\"react-icons/si\",\"react-icons/sl\",\"react-icons/tb\",\"react-icons/tfi\",\"react-icons/ti\",\"react-icons/vsc\",\"react-icons/wi\"],\"trustHostHeader\":false,\"isExperimentalCompile\":false},\"bundlePagesRouterDependencies\":false,\"configFileName\":\"next.config.mjs\"}",
+      "__NEXT_PRIVATE_ORIGIN": "http://localhost:3000",
+      "CONTACT_FROM": "",
+      "SMTP_PASS": "",
+      "SMTP_HOST": "",
+      "SMTP_USER": "",
+      "NEXT_DEPLOYMENT_ID": "",
+      "__NEXT_PRIVATE_RUNTIME_TYPE": ""
+    },
+    "env_vars_count": "20",
+    "is_hvt": "false",
+    "procs": "1:next-server (v",
+    "listening_ports": "34359,3000",
+    "llm_checks": []
+  },
+  "bypass_used": 0
+}

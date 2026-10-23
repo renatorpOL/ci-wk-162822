@@ -1,0 +1,26 @@
+Scan Summary
+============
+Date: 2026-10-23T04:47:33.472935
+Total: 406
+Vulnerable: 1
+Failed: 0
+States: {"dns_or_connect_error": 81, "http_error": 189, "unknown_timeout": 135, "vulnerable": 1}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 2 targets
+
+Vulnerable targets:
+  - agent_vervesys_com_20261023_044608.json
+  - novatraxinternational_com_20261023_044606.json
+  - staging_immotep_re_20261023_044606.json
+  - www_novatraxinternational_com_20261023_044606.json
+  - www_staging_immotep_re_20261023_044606.json
+
+
+CRITICAL CRYPTO KEYS FOUND:
+===========================
+
+Target: staging.immotep.re
+  🔑 DATABASE_URL: [REDACTED]
+
+Target: www.staging.immotep.re
+  🔑 DATABASE_URL: [REDACTED]
