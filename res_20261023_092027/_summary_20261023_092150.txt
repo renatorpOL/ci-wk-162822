@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-23T09:21:50.022150
+Total: 235
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 32, "http_error": 122, "unknown_timeout": 81}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - nexus_wavetickets_net_20261023_092032.json
