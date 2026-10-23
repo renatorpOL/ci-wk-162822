@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-23T08:40:30.740329
+Total: 447
+Vulnerable: 1
+Failed: 0
+States: {"dns_or_connect_error": 32, "http_error": 346, "unknown_timeout": 68, "vulnerable": 1}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - tunnel_grupojlfroiz_com_20261023_083904.json
