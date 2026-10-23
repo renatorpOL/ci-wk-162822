@@ -1,0 +1,11 @@
+Scan Summary
+============
+Date: 2026-10-23T06:20:06.258737
+Total: 449
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 149, "http_error": 219, "unknown_timeout": 81}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
