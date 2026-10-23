@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-23T05:48:43.511273
+Total: 404
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 90, "http_error": 243, "unknown_timeout": 71}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - unaimyimage_com_20261023_054718.json
