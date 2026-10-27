@@ -1,0 +1,12 @@
+Scan Summary
+============
+Date: 2026-10-27T20:58:13.780049
+Total: 389
+Vulnerable: 0
+Failed: 0
+States: {"dns_or_connect_error": 113, "http_error": 208, "unknown_timeout": 68}
+Vulnerable registry: vulnerable_targets_registry.txt
+Critical Findings: 0 targets
+
+Vulnerable targets:
+  - theeveafterdark_com_20261027_205651.json
