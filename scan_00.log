@@ -1,68 +1,56 @@
 [dedup] warn: text registry append failed: [Errno 13] Permission denied: '/root/ct_dump/priority_scanned.txt'
-[dedup] on: 477 hosts in (479 probes) -> 42 unseen hosts (42 probes) | skipped 437 already-scanned probes
+[dedup] on: 428 hosts in (430 probes) -> 30 unseen hosts (30 probes) | skipped 400 already-scanned probes
 ======================================================================
 CVE-2025-55182 Batch Scanner — @Haf[redacted]Bot
 ======================================================================
-[*] Targets: 42
+[*] Targets: 30
 [*] Concurrency: 250 | Timeout: 8s
-[*] Output directory: res_20261024_000240
+[*] Output directory: res_20261027_202229
 [*] Telegram: Will send zip when complete
 [*] Vulnerable registry: vulnerable_targets_registry.txt
 ----------------------------------------------------------------------
-[1/42] www.drconfidential.com - dns_or_connect_error
-[2/42] 013902c0.sni.cloudflaressl.com - dns_or_connect_error
-[3/42] ruckus.grc-scm.comcast.net - http_error
-[4/42] www.tokekwinrtp.pics - http_error
-[5/42] tabby.sallapay.net - http_error
-[6/42] app-test.dojo-trading.com - http_error
-[7/42] twww.www.kjilkjidcbmhgfedcbaxwvuxwvutonpupnvzr4q3r2qs3n02ruqt1mvm1tv43nr.3210bzm91ce0icu9lvct.123barnystreet.opik.net - dns_or_connect_error
-[8/42] swww.nmwww.hkfmhgfahgfedcbaxwvuxwvutonpupnvzr4q3r2qs3n02ruqt1mvm1tv43nr.3210bzm91ce0icu9lvct.123barnystreet.opik.net - dns_or_connect_error
-[9/42] adm.montagne12.com - http_error
-[10/42] bet45plataforma.com - http_error
-[11/42] 316betplataforma.com - http_error
-[12/42] www.host-117-187.ph - http_error
-[13/42] www.lab.yagamifestival.com - dns_or_connect_error
-[14/42] aa.frytuyu.top - http_error
-[15/42] kepland.com.ph - http_error
-[16/42] test.weddingplaner-studio.de - dns_or_connect_error
-[17/42] codeflowstudios.be - http_error
-[18/42] granalier.terasync.tera.ar - http_error
-[19/42] ytsrutsnmlknmlgjihgfedcbanotexists7614anamtstaging.wwwapp.37.27.88.135.dyn.tcadmin.net - dns_or_connect_error
-[20/42] zzjp-077.my.commercecloud.salesforce.com - http_error
-[21/42] mail.deristok.com - http_error
-[22/42] nono4dcenter.com - http_error
-[23/42] freepanelhosting.online - http_error
-[24/42] tyja.devmountain.com - http_error
-[25/42] webdisk.myclubfitter.com - http_error
-[26/42] engineeringlesbian.site - dns_or_connect_error
-[27/42] www.artichotel.com - http_error
-[28/42] 6c4d82c508b140f5c31562e2.keenetic.io - http_error
-[29/42] nassrednas.direct.quickconnect.to - unknown_timeout
-[30/42] h11n3.de - unknown_timeout
-[31/42] las1.blackicecrm.com - unknown_timeout
-[32/42] youla.yandex.www.sber.806awxtsxod3awb.qa3oohhkr7xminn.shopify.autofarba.com - unknown_timeout
-[33/42] k0igg0ecdevelopment-flowiseai.aeatnamedicare.com.young-turtle-38.telebit.io - unknown_timeout
-[34/42] www.remnantsteel.com - unknown_timeout
-[35/42] ms3q.com - unknown_timeout
-[36/42] www.tumen.geo-ground.ru - unknown_timeout
-[37/42] u6iymljm4vykiz3w.shopmaternityclothes.com - unknown_timeout
-[38/42] ad-terram.direct.quickconnect.to - unknown_timeout
-[39/42] www.kjihgfedcb0qb6p5glfl6wow8n.ponmlkjihgfnotexistsnotexistscbnotexists87654notexistsaeomx32.23.32.cyberpad.site - unknown_timeout
-[40/42] giulio83.direct.quickconnect.to - unknown_timeout
-[41/42] mrapp4b1cxudg4ai.myfritz.net - unknown_timeout
-[42/42] 925cc007.l8yxs.top - unknown_timeout
+[1/30] www.souqgadgetsmall.com - dns_or_connect_error
+[2/30] peach.finance - http_error
+[3/30] 5ea98296.sni.cloudflaressl.com - dns_or_connect_error
+[4/30] email.ask.ghltutor.com - dns_or_connect_error
+[5/30] vpn.tfin.com - dns_or_connect_error
+[6/30] www.idealbusinessopportunity.ph - http_error
+[7/30] brandisc.com - http_error
+[8/30] www.7210update.876543update.update.webdisk.atriacasa.com - dns_or_connect_error
+[9/30] forms.srinidhiphysiotherapy.com - dns_or_connect_error
+[10/30] mail.yxy.gro.mybluehost.me - http_error
+[11/30] 3x.valiticket.com - http_error
+[12/30] qwww.lkjilkfedgbegzijyqec.wzulqcbdvny.srmlkjidonmlkfedvrcqh654cb0efb4e05-0c96-4156-b771-a34d78af1bbe.yektasaka.org - dns_or_connect_error
+[13/30] qkcyq.com - http_error
+[14/30] yik-consulting.annraughtauthor.com - http_error
+[15/30] movetobrenvo.com - http_error
+[16/30] www.pnpclaereance.ph - http_error
+[17/30] www.dazhengxuan.com - http_error
+[18/30] ftp.ga-ma.battery.cam - dns_or_connect_error
+[19/30] f10494908c55807bb5b2adee.netcraze.io - http_error
+[20/30] fideserv--vpn.wildixin.com - unknown_timeout
+[21/30] kardiologe-hannover.de - unknown_timeout
+[22/30] grundsteuervergleich.de - unknown_timeout
+[23/30] autodiscover.laensenada.cl - unknown_timeout
+[24/30] www.admin.www.www.app.app.ohwgewwwexchange.h2862589.stratoserver.net - unknown_timeout
+[25/30] gettinkly.online - unknown_timeout
+[26/30] damistudio.site - unknown_timeout
+[27/30] adperson.krchange.h2862589.stratoserver.net - unknown_timeout
+[28/30] mail.atrinburners.com - unknown_timeout
+[29/30] mail.hydrotik.ir - unknown_timeout
+[30/30] www.horn-dms.de - unknown_timeout
 
 ======================================================================
 [*] Scan complete!
-    Total scanned: 42
+    Total scanned: 30
     Vulnerable: 0
     Failed: 0
-[+] Results saved in: res_20261024_000240
+[+] Results saved in: res_20261027_202229
 
 [*] Analyzing results...
     Found 0 targets with critical keys
-[+] Summary saved: res_20261024_000240/_summary_20261024_000401.txt
+[+] Summary saved: res_20261027_202229/_summary_20261027_202350.txt
 
 [*] Zipping results folder...
-    Created: res_20261024_000240.zip (0.0 MB)
+    Created: res_20261027_202229.zip (0.0 MB)
     Telegram delivery disabled by default (set SEND_TELEGRAM=1 to send raw result zip)

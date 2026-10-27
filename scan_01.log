@@ -1,58 +1,48 @@
 [dedup] warn: text registry append failed: [Errno 13] Permission denied: '/root/ct_dump/priority_scanned.txt'
-[dedup] on: 458 hosts in (462 probes) -> 32 unseen hosts (32 probes) | skipped 430 already-scanned probes
+[dedup] on: 229 hosts in (229 probes) -> 22 unseen hosts (22 probes) | skipped 207 already-scanned probes
 ======================================================================
 CVE-2025-55182 Batch Scanner — @Haf[redacted]Bot
 ======================================================================
-[*] Targets: 32
+[*] Targets: 22
 [*] Concurrency: 250 | Timeout: 8s
-[*] Output directory: res_20261024_000240
+[*] Output directory: res_20261027_202229
 [*] Telegram: Will send zip when complete
 [*] Vulnerable registry: vulnerable_targets_registry.txt
 ----------------------------------------------------------------------
-[1/32] xrvemiou.mttaborpreschool.org - dns_or_connect_error
-[2/32] docs.samplehc.com - http_error
-[3/32] mwww.pojmhgfmhgfedcbaxwvuxwvutonpupnvzr4q3r2qs3n02ruqt1mvm1tv43nr.3210bzm91ce0icu9lvct.123barnystreet.opik.net - dns_or_connect_error
-[4/32] livohub.kolivo.org - http_error
-[5/32] www.www.notexistsyriigf0dbf0db90860977260421086ap-northeast-1.vpce.amazonmap.medellin.onl - dns_or_connect_error
-[6/32] admin.vbetlithuania.com - http_error
-[7/32] www.happycrafts.ph - http_error
-[8/32] trenddailylife0013.sbs - http_error
-[9/32] area-clienti.nuss-nougat-verschwoerung.de - dns_or_connect_error
-[10/32] zero-ui.srv10.innvision.cc - dns_or_connect_error
-[11/32] www.planencende.online - dns_or_connect_error
-[12/32] photo.10bricks.ru - dns_or_connect_error
-[13/32] mail.contemp1.mywhc.ca - http_error
-[14/32] staptes.com - http_error
-[15/32] net.zoltech.ru - dns_or_connect_error
-[16/32] www.unihertz.it - http_error
-[17/32] kdex.top - http_error
-[18/32] argocd.qa.mpro.greencapehealth.com - http_error
-[19/32] devlethaber.com.tr - http_error
-[20/32] 4www.3duyyoabndnw3q59aila3ycz4x9.cse.casl.cal.msu.edu - http_error
-[21/32] admin.zenma.top - unknown_timeout
-[22/32] device-b00b2ae0-cf89-4a93-b233-4cb147a8895d.remotewd.com - unknown_timeout
-[23/32] www.hgbahgfadmin.adminer.dotsgroup.euuat.wwwtkdev.35-204-139-184.sslip.io - unknown_timeout
-[24/32] www.hgfadclivetritonapartmentsfostercity.comww.young-turtle-38.telebit.io - unknown_timeout
-[25/32] moodularoffice.direct.quickconnect.to - unknown_timeout
-[26/32] truck-servis.ru - unknown_timeout
-[27/32] device-local-70e04769-ef11-402f-a7bd-c996071e3575.remotewd.com - unknown_timeout
-[28/32] trustpathway.pro - unknown_timeout
-[29/32] nalozhka.sbermegamarket.nalozhka.comww.806awxtsxod3awb.qa3oohhkr7xminn.shopify.autofarba.com - unknown_timeout
-[30/32] device-2aa67224-91bd-442e-95bb-c654fcfbccc8.remotewd.com - unknown_timeout
-[31/32] dcno.com - unknown_timeout
-[32/32] www.tula.polyster.ru - unknown_timeout
+[1/22] www.magistvsp.net - http_error
+[2/22] pennsylvaniadc.ph - http_error
+[3/22] www.xn--sprimgglobalmil-gkb.ph - http_error
+[4/22] naishoprohorinews.com - http_error
+[5/22] hostcream.com - http_error
+[6/22] damai298.com - http_error
+[7/22] iixi.cc - http_error
+[8/22] d351odkq611sd85fed00.app.cushawake.net - http_error
+[9/22] houseofchampionsltd.co.uk - http_error
+[10/22] amp.turkporno.click - dns_or_connect_error
+[11/22] ge.turkporno.click - dns_or_connect_error
+[12/22] www.analytics.anysubscriber.net - dns_or_connect_error
+[13/22] awnedgla.casa - unknown_timeout
+[14/22] sg.suzukiconnection.net - unknown_timeout
+[15/22] kosmetische-zahnkorrektur.de - unknown_timeout
+[16/22] livedrawhongkong.live - unknown_timeout
+[17/22] mail.erimashop.ba - unknown_timeout
+[18/22] landing.xn--shoppingbrse-djb.com - unknown_timeout
+[19/22] instructor.cryptopedia.co.id - unknown_timeout
+[20/22] www.adultxxxvids.com - unknown_timeout
+[21/22] dpppan.direct.quickconnect.to - unknown_timeout
+[22/22] www.3tggrrherfuckingnigger.151.80.60.23.sslip.io - unknown_timeout
 
 ======================================================================
 [*] Scan complete!
-    Total scanned: 32
+    Total scanned: 22
     Vulnerable: 0
     Failed: 0
-[+] Results saved in: res_20261024_000240
+[+] Results saved in: res_20261027_202229
 
 [*] Analyzing results...
     Found 0 targets with critical keys
-[+] Summary saved: res_20261024_000240/_summary_20261024_000400.txt
+[+] Summary saved: res_20261027_202229/_summary_20261027_202350.txt
 
 [*] Zipping results folder...
-    Created: res_20261024_000240.zip (0.0 MB)
+    Created: res_20261027_202229.zip (0.0 MB)
     Telegram delivery disabled by default (set SEND_TELEGRAM=1 to send raw result zip)
